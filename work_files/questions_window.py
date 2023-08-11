@@ -8,7 +8,7 @@ count_life = 3    # счетчик жизней
 # функция открытия окна с вопросами
 def open_question_window1():
     app1 = QApplication([])
-    Form, Window = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window_ui.ui")
+    Form, Window = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/questions_window_ui.ui")
     global form
     window = Window()
     form = Form()

@@ -25,6 +25,9 @@
   <property name="windowTitle">
    <string>Вопрос №3</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #000033;</string>
+  </property>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
@@ -38,6 +41,9 @@
     <font>
      <pointsize>10</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
    </property>
    <property name="text">
     <string>Жизни:</string>
@@ -54,6 +60,9 @@
      <width>31</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -73,6 +82,9 @@
      <pointsize>10</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
+   </property>
    <property name="text">
     <string>Баланс:</string>
    </property>
@@ -88,6 +100,9 @@
      <width>71</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -107,6 +122,9 @@
      <pointsize>16</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
+   </property>
    <property name="text">
     <string>Какое из этих животных является водным? </string>
    </property>
@@ -119,6 +137,9 @@
      <width>171</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
    </property>
    <property name="text">
     <string>Стоимость вопроса: 100000</string>
@@ -133,6 +154,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
+   </property>
    <property name="text">
     <string>a) Медведь</string>
    </property>
@@ -145,6 +169,9 @@
      <width>231</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string> b) Бегемот </string>
@@ -159,6 +186,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
+   </property>
    <property name="text">
     <string>c) Лев </string>
    </property>
@@ -171,6 +201,9 @@
      <width>221</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string>d) Жираф</string>

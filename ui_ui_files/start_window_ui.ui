@@ -7,11 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>565</width>
-    <height>215</height>
+    <height>200</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Кто хочет стать миллионером?</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #000033;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -27,6 +30,9 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>Кто хочет стать миллионером?</string>
@@ -45,6 +51,9 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #000066; color: white</string>
     </property>
     <property name="text">
      <string>Старт</string>

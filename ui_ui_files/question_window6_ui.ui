@@ -10,8 +10,23 @@
     <height>287</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>699</width>
+    <height>287</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>699</width>
+    <height>287</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Вопрос №6</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #000033;</string>
   </property>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
@@ -26,6 +41,9 @@
     <font>
      <pointsize>10</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
    </property>
    <property name="text">
     <string>Жизни:</string>
@@ -42,6 +60,9 @@
      <width>31</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -61,6 +82,9 @@
      <pointsize>10</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
+   </property>
    <property name="text">
     <string>Баланс:</string>
    </property>
@@ -77,6 +101,9 @@
      <height>22</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
+   </property>
    <property name="text">
     <string/>
    </property>
@@ -85,15 +112,18 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>50</y>
+     <y>60</y>
      <width>601</width>
-     <height>51</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <pointsize>14</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
    </property>
    <property name="text">
     <string>Кто из этих художников прославился своими картинами </string>
@@ -113,6 +143,9 @@
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
+   </property>
    <property name="text">
     <string>с подводными пейзажами?</string>
    </property>
@@ -125,6 +158,9 @@
      <width>171</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white</string>
    </property>
    <property name="text">
     <string>Стоимость вопроса: 100000</string>
@@ -139,6 +175,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
+   </property>
    <property name="text">
     <string>a) Леонардо да Винчи </string>
    </property>
@@ -151,6 +190,9 @@
      <width>231</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string> b) Винсент Ван Гог </string>
@@ -165,6 +207,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
+   </property>
    <property name="text">
     <string>c) Клод Моне</string>
    </property>
@@ -177,6 +222,9 @@
      <width>221</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #000066; color: white</string>
    </property>
    <property name="text">
     <string>d) Сальвадор Дали</string>
