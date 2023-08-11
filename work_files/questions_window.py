@@ -341,7 +341,7 @@ def open_question_window6():
     form7.lineEdit.setText(str(count_life))
     form7.lineEdit_2.setText(str(balance))
 
-    # кнопки с вариантами ответа на пятый вопрос
+    # кнопки с вариантами ответа на шестой вопрос
     btn1_6 = form7.pushButton
     btn1_6.clicked.connect(clicked_btn1_6)
 
@@ -395,7 +395,7 @@ def clicked_btn4_6():
     open_question_window7()
 
 
-# функция открытия окна с шестым вопросом
+# функция открытия окна с седьмым вопросом
 def open_question_window7():
     Form8, Window8 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window7_ui.ui")
     global form8
@@ -408,7 +408,7 @@ def open_question_window7():
     form8.lineEdit.setText(str(count_life))
     form8.lineEdit_2.setText(str(balance))
 
-    # кнопки с вариантами ответа на пятый вопрос
+    # кнопки с вариантами ответа на седьмой вопрос
     btn1_7 = form8.pushButton
     btn1_7.clicked.connect(clicked_btn1_7)
 
@@ -429,7 +429,7 @@ def clicked_btn1_7():
     global balance
     balance += 100000
     form8.lineEdit_2.setText(str(balance))
-    # open_question_window8()
+    open_question_window8()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -439,7 +439,7 @@ def clicked_btn2_7():
     count_life -= 1
     balance -= 100000
     form8.lineEdit.setText(str(count_life))
-    # open_question_window8()
+    open_question_window8()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -449,7 +449,7 @@ def clicked_btn3_7():
     count_life -= 1
     balance -= 100000
     form8.lineEdit.setText(str(count_life))
-    # open_question_window8()
+    open_question_window8()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -459,4 +459,71 @@ def clicked_btn4_7():
     count_life -= 1
     balance -= 100000
     form8.lineEdit.setText(str(count_life))
-    # open_question_window8()
+    open_question_window8()
+
+
+# функция открытия окна с восьмым вопросом
+def open_question_window8():
+    Form9, Window9 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window8_ui.ui")
+    global form9
+    window9 = Window9()
+    form9 = Form9()
+    form9.setupUi(window9)
+
+    global balance
+    global count_life
+    form9.lineEdit.setText(str(count_life))
+    form9.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на восьмой вопрос
+    btn1_8 = form9.pushButton
+    btn1_8.clicked.connect(clicked_btn1_8)
+
+    btn2_8 = form9.pushButton_2
+    btn2_8.clicked.connect(clicked_btn2_8)
+
+    btn3_8 = form9.pushButton_3
+    btn3_8.clicked.connect(clicked_btn3_8)
+
+    btn4_8 = form9.pushButton_4
+    btn4_8.clicked.connect(clicked_btn4_8)
+
+    window9.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_8():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form9.lineEdit.setText(str(count_life))
+    # open_question_window9()
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_8():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form9.lineEdit.setText(str(count_life))
+    # open_question_window9()
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_8():
+    global balance
+    balance += 100000
+    form9.lineEdit_2.setText(str(balance))
+    # open_question_window9()
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_8():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form9.lineEdit.setText(str(count_life))
+    # open_question_window9()
