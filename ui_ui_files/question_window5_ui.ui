@@ -7,12 +7,30 @@
     <x>0</x>
     <y>0</y>
     <width>700</width>
-    <height>275</height>
+    <height>289</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Вопрос №4</string>
+   <string>Вопрос №5</string>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>661</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Какой цвет имеет знак дорожного указателя «Остановка запрещена»? </string>
+   </property>
+  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
@@ -50,7 +68,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>560</x>
      <y>10</y>
      <width>71</width>
      <height>16</height>
@@ -71,7 +89,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>560</x>
      <y>30</y>
      <width>71</width>
      <height>22</height>
@@ -81,29 +99,11 @@
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>60</y>
-     <width>641</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Какое из этих измерений используется для измерения температуры? </string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>120</y>
+     <x>280</x>
+     <y>130</y>
      <width>171</width>
      <height>16</height>
     </rect>
@@ -116,52 +116,52 @@
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>160</y>
+     <y>170</y>
      <width>231</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>a) Метр</string>
+    <string>a) Красный </string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>210</y>
+     <y>220</y>
      <width>231</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string> b) Килограмм</string>
+    <string> b) Синий</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>160</y>
+     <y>170</y>
      <width>221</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>c) Кельвин</string>
+    <string>c) Зеленый</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>210</y>
+     <y>220</y>
      <width>221</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>d) Ватт</string>
+    <string>d) Желтый</string>
    </property>
   </widget>
  </widget>

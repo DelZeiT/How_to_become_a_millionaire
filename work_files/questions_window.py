@@ -6,7 +6,7 @@ count_life = 3    # счетчик жизней
 
 # функция открытия окна с вопросами
 def open_question_window1():
-    Form2, Window2 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/questions_window_ui.ui")
+    Form2, Window2 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window_ui.ui")
     global form2
     window2 = Window2()
     form2 = Form2()
@@ -207,20 +207,21 @@ def open_question_window4():
     form5.lineEdit.setText(str(count_life))
     form5.lineEdit_2.setText(str(balance))
 
-    # кнопки с вариантами ответа на третий вопрос
-    btn1_4 = form5.pushButton       # Медведь
+    # кнопки с вариантами ответа на четвертый вопрос
+    btn1_4 = form5.pushButton
     btn1_4.clicked.connect(clicked_btn1_4)
 
-    btn2_4 = form4.pushButton_2     # Бегемот
+    btn2_4 = form5.pushButton_2
     btn2_4.clicked.connect(clicked_btn2_4)
 
-    btn3_4 = form4.pushButton_3     # Лев
+    btn3_4 = form5.pushButton_3
     btn3_4.clicked.connect(clicked_btn3_4)
 
-    btn4_4 = form4.pushButton_4     # Жираф
+    btn4_4 = form5.pushButton_4
     btn4_4.clicked.connect(clicked_btn4_4)
 
     window5.exec()
+
 
 # функция нажатия кнопки с первым вариантом ответа
 def clicked_btn1_4():
@@ -228,8 +229,8 @@ def clicked_btn1_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    # open_question_window5()
+    form5.lineEdit.setText(str(count_life))
+    open_question_window5()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -238,16 +239,16 @@ def clicked_btn2_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    # open_question_window5()
+    form5.lineEdit.setText(str(count_life))
+    open_question_window5()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
 def clicked_btn3_4():
     global balance
     balance += 100000
-    form4.lineEdit_2.setText(str(balance))
-    # open_question_window5()
+    form5.lineEdit_2.setText(str(balance))
+    open_question_window5()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -256,5 +257,72 @@ def clicked_btn4_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    # open_question_window5()
+    form5.lineEdit.setText(str(count_life))
+    open_question_window5()
+
+
+# функция открытия окна с пятым вопросом
+def open_question_window5():
+    Form6, Window6 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window5_ui.ui")
+    global form6
+    window6 = Window6()
+    form6 = Form6()
+    form6.setupUi(window6)
+
+    global balance
+    global count_life
+    form6.lineEdit.setText(str(count_life))
+    form6.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на пятый вопрос
+    btn1_5 = form6.pushButton
+    btn1_5.clicked.connect(clicked_btn1_5)
+
+    btn2_5 = form6.pushButton_2
+    btn2_5.clicked.connect(clicked_btn2_5)
+
+    btn3_5 = form6.pushButton_3
+    btn3_5.clicked.connect(clicked_btn3_5)
+
+    btn4_5 = form6.pushButton_4
+    btn4_5.clicked.connect(clicked_btn4_5)
+
+    window6.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_5():
+    global balance
+    balance += 100000
+    form6.lineEdit_2.setText(str(balance))
+    # open_question_window6()
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_5():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form6.lineEdit.setText(str(count_life))
+    # open_question_window6()
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_5():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form6.lineEdit.setText(str(count_life))
+    # open_question_window6()
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_5():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form6.lineEdit.setText(str(count_life))
+    # open_question_window6()
