@@ -1,4 +1,5 @@
 from PyQt5 import uic
+from PyQt5.QtWidgets import QApplication
 
 balance = 0    # баланс
 count_life = 3    # счетчик жизней
@@ -6,6 +7,7 @@ count_life = 3    # счетчик жизней
 
 # функция открытия окна с вопросами
 def open_question_window1():
+    app1 = QApplication([])
     Form, Window = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window_ui.ui")
     global form
     window = Window()
@@ -26,6 +28,7 @@ def open_question_window1():
     btn4.clicked.connect(clicked_btn4)
 
     window.exec_()
+    app1.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -62,6 +65,7 @@ def clicked_btn4():
 
 # функция открытия окна со вторым вопросом
 def open_question_window2():
+    app2 = QApplication([])
     Form2, Window2 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window2_ui.ui")
     global form2
     window2 = Window2()
@@ -87,6 +91,7 @@ def open_question_window2():
     btn4_2.clicked.connect(clicked_btn4_2)
 
     window2.exec()
+    app2.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -129,6 +134,7 @@ def clicked_btn4_2():
 
 # функция открытия окна с третьим вопросом
 def open_question_window3():
+    app3 = QApplication([])
     Form3, Window3 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window3_ui.ui")
     global form3
     window3 = Window3()
@@ -154,6 +160,7 @@ def open_question_window3():
     btn4_3.clicked.connect(clicked_btn4_3)
 
     window3.exec()
+    app3.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -196,6 +203,7 @@ def clicked_btn4_3():
 
 # функция открытия окна с четвертым вопросом
 def open_question_window4():
+    app4 = QApplication([])
     Form4, Window4 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window4_ui.ui")
     global form4
     window4 = Window4()
@@ -221,6 +229,7 @@ def open_question_window4():
     btn4_4.clicked.connect(clicked_btn4_4)
 
     window4.exec()
+    app4.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -263,6 +272,7 @@ def clicked_btn4_4():
 
 # функция открытия окна с пятым вопросом
 def open_question_window5():
+    app5 = QApplication([])
     Form5, Window5 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window5_ui.ui")
     global form5
     window5 = Window5()
@@ -288,6 +298,7 @@ def open_question_window5():
     btn4_5.clicked.connect(clicked_btn4_5)
 
     window5.exec()
+    app5.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -330,6 +341,7 @@ def clicked_btn4_5():
 
 # функция открытия окна с шестым вопросом
 def open_question_window6():
+    app6 = QApplication([])
     Form6, Window6 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window6_ui.ui")
     global form6
     window6 = Window6()
@@ -355,6 +367,7 @@ def open_question_window6():
     btn4_6.clicked.connect(clicked_btn4_6)
 
     window6.exec()
+    app6.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -397,6 +410,7 @@ def clicked_btn4_6():
 
 # функция открытия окна с седьмым вопросом
 def open_question_window7():
+    app7 = QApplication([])
     Form7, Window7 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window7_ui.ui")
     global form7
     window7 = Window7()
@@ -422,6 +436,7 @@ def open_question_window7():
     btn4_7.clicked.connect(clicked_btn4_7)
 
     window7.exec()
+    app7.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -464,6 +479,7 @@ def clicked_btn4_7():
 
 # функция открытия окна с восьмым вопросом
 def open_question_window8():
+    app8 = QApplication([])
     Form8, Window8 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window8_ui.ui")
     global form8
     window8 = Window8()
@@ -489,6 +505,7 @@ def open_question_window8():
     btn4_8.clicked.connect(clicked_btn4_8)
 
     window8.exec()
+    app8.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -531,6 +548,7 @@ def clicked_btn4_8():
 
 # функция открытия окна с девятым вопросом
 def open_question_window9():
+    app9 = QApplication([])
     Form9, Window9 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window9_ui.ui")
     global form9
     window9 = Window9()
@@ -556,6 +574,7 @@ def open_question_window9():
     btn4_9.clicked.connect(clicked_btn4_9)
 
     window9.exec()
+    app9.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -598,6 +617,7 @@ def clicked_btn4_9():
 
 # функция открытия окна с десятым вопросом
 def open_question_window10():
+    app10 = QApplication([])
     Form10, Window10 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window10_ui.ui")
     global form10
     window10 = Window10()
@@ -623,6 +643,7 @@ def open_question_window10():
     btn4_10.clicked.connect(clicked_btn4_10)
 
     window10.exec()
+    app10.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -639,6 +660,8 @@ def clicked_btn1_10():
 def clicked_btn2_10():
     global balance
     balance += 100000
+    if balance == 1000000:
+        victory_window()
     form10.lineEdit_2.setText(str(balance))
     open_question_window11()
 
@@ -665,6 +688,7 @@ def clicked_btn4_10():
 
 # функция открытия окна с одиннадцатым вопросом
 def open_question_window11():
+    app11 = QApplication([])
     Form11, Window11 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window11_ui.ui")
     global form11
     window11 = Window11()
@@ -690,12 +714,15 @@ def open_question_window11():
     btn4_11.clicked.connect(clicked_btn4_11)
 
     window11.exec()
+    app11.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
 def clicked_btn1_11():
     global balance
     balance += 100000
+    if balance == 1000000:
+        victory_window()
     form11.lineEdit_2.setText(str(balance))
     open_question_window12()
 
@@ -732,6 +759,7 @@ def clicked_btn4_11():
 
 # функция открытия окна с двенацдатым вопросом
 def open_question_window12():
+    app12 = QApplication([])
     Form12, Window12 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window12_ui.ui")
     global form12
     window12 = Window12()
@@ -757,6 +785,7 @@ def open_question_window12():
     btn4_12.clicked.connect(clicked_btn4_12)
 
     window12.exec()
+    app12.exec()
 
 
 # функция нажатия кнопки с первым вариантом ответа
@@ -790,6 +819,27 @@ def clicked_btn3_12():
 def clicked_btn4_12():
     global balance
     balance += 100000
+    if balance == 1000000:
+        victory_window()
     form12.lineEdit_2.setText(str(balance))
 
 
+# функция окна с поздравлениями
+def victory_window():
+    appV = QApplication([])
+    FormV, WindowV = uic.loadUiType(
+        "C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/victory_window_ui.ui")
+    global formV
+    windowV = WindowV()
+    formV = FormV()
+    formV.setupUi(windowV)
+    windowV.exec()
+    appV.exec()
+
+    btn_exit = formV.pushButton
+
+    # функция закрытия окна с поздравлениями
+    def close_victory_window():
+        windowV.close()
+
+    btn_exit.clicked.connect(close_victory_window)
