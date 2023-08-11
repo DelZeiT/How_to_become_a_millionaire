@@ -596,7 +596,7 @@ def clicked_btn4_9():
     open_question_window10()
 
 
-# функция открытия окна с девятым вопросом
+# функция открытия окна с десятым вопросом
 def open_question_window10():
     Form10, Window10 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window10_ui.ui")
     global form10
@@ -609,7 +609,7 @@ def open_question_window10():
     form10.lineEdit.setText(str(count_life))
     form10.lineEdit_2.setText(str(balance))
 
-    # кнопки с вариантами ответа на девятый вопрос
+    # кнопки с вариантами ответа на десятый вопрос
     btn1_10 = form10.pushButton
     btn1_10.clicked.connect(clicked_btn1_10)
 
@@ -632,7 +632,7 @@ def clicked_btn1_10():
     count_life -= 1
     balance -= 100000
     form10.lineEdit.setText(str(count_life))
-    # open_question_window11()
+    open_question_window11()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -640,7 +640,7 @@ def clicked_btn2_10():
     global balance
     balance += 100000
     form10.lineEdit_2.setText(str(balance))
-    # open_question_window11()
+    open_question_window11()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -650,7 +650,7 @@ def clicked_btn3_10():
     count_life -= 1
     balance -= 100000
     form10.lineEdit.setText(str(count_life))
-    # open_question_window11()
+    open_question_window11()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -660,4 +660,136 @@ def clicked_btn4_10():
     count_life -= 1
     balance -= 100000
     form10.lineEdit.setText(str(count_life))
-    # open_question_window11()
+    open_question_window11()
+
+
+# функция открытия окна с одиннадцатым вопросом
+def open_question_window11():
+    Form11, Window11 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window11_ui.ui")
+    global form11
+    window11 = Window11()
+    form11 = Form11()
+    form11.setupUi(window11)
+
+    global balance
+    global count_life
+    form11.lineEdit.setText(str(count_life))
+    form11.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на одиннадцатый вопрос
+    btn1_11 = form11.pushButton
+    btn1_11.clicked.connect(clicked_btn1_11)
+
+    btn2_11 = form11.pushButton_2
+    btn2_11.clicked.connect(clicked_btn2_11)
+
+    btn3_11 = form11.pushButton_3
+    btn3_11.clicked.connect(clicked_btn3_11)
+
+    btn4_11 = form11.pushButton_4
+    btn4_11.clicked.connect(clicked_btn4_11)
+
+    window11.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_11():
+    global balance
+    balance += 100000
+    form11.lineEdit_2.setText(str(balance))
+    open_question_window12()
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_11():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form11.lineEdit.setText(str(count_life))
+    open_question_window12()
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_11():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form11.lineEdit.setText(str(count_life))
+    open_question_window12()
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_11():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form11.lineEdit.setText(str(count_life))
+    open_question_window12()
+
+
+# функция открытия окна с двенацдатым вопросом
+def open_question_window12():
+    Form12, Window12 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window12_ui.ui")
+    global form12
+    window12 = Window12()
+    form12 = Form12()
+    form12.setupUi(window12)
+
+    global balance
+    global count_life
+    form12.lineEdit.setText(str(count_life))
+    form12.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на двенадцатый вопрос
+    btn1_12 = form12.pushButton
+    btn1_12.clicked.connect(clicked_btn1_12)
+
+    btn2_12 = form12.pushButton_2
+    btn2_12.clicked.connect(clicked_btn2_12)
+
+    btn3_12 = form12.pushButton_3
+    btn3_12.clicked.connect(clicked_btn3_12)
+
+    btn4_12 = form12.pushButton_4
+    btn4_12.clicked.connect(clicked_btn4_12)
+
+    window12.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_12():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form12.lineEdit.setText(str(count_life))
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_12():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form12.lineEdit.setText(str(count_life))
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_12():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form12.lineEdit.setText(str(count_life))
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_12():
+    global balance
+    balance += 100000
+    form12.lineEdit_2.setText(str(balance))
+
+
