@@ -295,7 +295,7 @@ def clicked_btn1_5():
     global balance
     balance += 100000
     form6.lineEdit_2.setText(str(balance))
-    # open_question_window6()
+    open_question_window6()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -305,7 +305,7 @@ def clicked_btn2_5():
     count_life -= 1
     balance -= 100000
     form6.lineEdit.setText(str(count_life))
-    # open_question_window6()
+    open_question_window6()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -315,7 +315,7 @@ def clicked_btn3_5():
     count_life -= 1
     balance -= 100000
     form6.lineEdit.setText(str(count_life))
-    # open_question_window6()
+    open_question_window6()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -325,4 +325,71 @@ def clicked_btn4_5():
     count_life -= 1
     balance -= 100000
     form6.lineEdit.setText(str(count_life))
-    # open_question_window6()
+    open_question_window6()
+
+
+# функция открытия окна с шестым вопросом
+def open_question_window6():
+    Form7, Window7 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window6_ui.ui")
+    global form7
+    window7 = Window7()
+    form7 = Form7()
+    form7.setupUi(window7)
+
+    global balance
+    global count_life
+    form7.lineEdit.setText(str(count_life))
+    form7.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на пятый вопрос
+    btn1_6 = form7.pushButton
+    btn1_6.clicked.connect(clicked_btn1_6)
+
+    btn2_6 = form7.pushButton_2
+    btn2_6.clicked.connect(clicked_btn2_6)
+
+    btn3_6 = form7.pushButton_3
+    btn3_6.clicked.connect(clicked_btn3_6)
+
+    btn4_6 = form7.pushButton_4
+    btn4_6.clicked.connect(clicked_btn4_6)
+
+    window7.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_6():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form7.lineEdit.setText(str(count_life))
+    # open_question_window7()
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_6():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form7.lineEdit.setText(str(count_life))
+    # open_question_window7()
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_6():
+    global balance
+    balance += 100000
+    form7.lineEdit_2.setText(str(balance))
+    # open_question_window7()
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_6():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form7.lineEdit.setText(str(count_life))
+    # open_question_window7()
