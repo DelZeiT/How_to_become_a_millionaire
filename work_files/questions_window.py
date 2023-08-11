@@ -565,7 +565,7 @@ def clicked_btn1_9():
     count_life -= 1
     balance -= 100000
     form9.lineEdit.setText(str(count_life))
-    # open_question_window10()
+    open_question_window10()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -575,7 +575,7 @@ def clicked_btn2_9():
     count_life -= 1
     balance -= 100000
     form9.lineEdit.setText(str(count_life))
-    # open_question_window10()
+    open_question_window10()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -583,7 +583,7 @@ def clicked_btn3_9():
     global balance
     balance += 100000
     form9.lineEdit_2.setText(str(balance))
-    # open_question_window10()
+    open_question_window10()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -593,4 +593,71 @@ def clicked_btn4_9():
     count_life -= 1
     balance -= 100000
     form9.lineEdit.setText(str(count_life))
-    # open_question_window10()
+    open_question_window10()
+
+
+# функция открытия окна с девятым вопросом
+def open_question_window10():
+    Form10, Window10 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window10_ui.ui")
+    global form10
+    window10 = Window10()
+    form10 = Form10()
+    form10.setupUi(window10)
+
+    global balance
+    global count_life
+    form10.lineEdit.setText(str(count_life))
+    form10.lineEdit_2.setText(str(balance))
+
+    # кнопки с вариантами ответа на девятый вопрос
+    btn1_10 = form10.pushButton
+    btn1_10.clicked.connect(clicked_btn1_10)
+
+    btn2_10 = form10.pushButton_2
+    btn2_10.clicked.connect(clicked_btn2_10)
+
+    btn3_10 = form10.pushButton_3
+    btn3_10.clicked.connect(clicked_btn3_10)
+
+    btn4_10 = form10.pushButton_4
+    btn4_10.clicked.connect(clicked_btn4_10)
+
+    window10.exec()
+
+
+# функция нажатия кнопки с первым вариантом ответа
+def clicked_btn1_10():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form10.lineEdit.setText(str(count_life))
+    # open_question_window11()
+
+
+# функция нажатия кнопки со вторым вариантом ответа
+def clicked_btn2_10():
+    global balance
+    balance += 100000
+    form10.lineEdit_2.setText(str(balance))
+    # open_question_window11()
+
+
+# функция нажатия кнопки с третьим вариантом ответа
+def clicked_btn3_10():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form10.lineEdit.setText(str(count_life))
+    # open_question_window11()
+
+
+# функция нажатия кнопки с четвертым вариантом ответа
+def clicked_btn4_10():
+    global count_life
+    global balance
+    count_life -= 1
+    balance -= 100000
+    form10.lineEdit.setText(str(count_life))
+    # open_question_window11()
