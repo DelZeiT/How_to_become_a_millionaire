@@ -196,16 +196,16 @@ def clicked_btn4_3():
 
 # функция открытия окна с четвертым вопросом
 def open_question_window4():
-    Form5, Window5 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window3_ui.ui")
+    Form5, Window5 = uic.loadUiType("C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/question_window4_ui.ui")
     global form5
     window5 = Window5()
     form5 = Form5()
-    form4.setupUi(window5)
+    form5.setupUi(window5)
 
     global balance
     global count_life
-    form4.lineEdit.setText(str(count_life))
-    form4.lineEdit_2.setText(str(balance))
+    form5.lineEdit.setText(str(count_life))
+    form5.lineEdit_2.setText(str(balance))
 
     # кнопки с вариантами ответа на третий вопрос
     btn1_4 = form5.pushButton       # Медведь
@@ -248,6 +248,7 @@ def clicked_btn3_4():
     balance += 100000
     form4.lineEdit_2.setText(str(balance))
     # open_question_window5()
+
 
 # функция нажатия кнопки с четвертым вариантом ответа
 def clicked_btn4_4():
