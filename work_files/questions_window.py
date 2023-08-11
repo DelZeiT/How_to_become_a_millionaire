@@ -169,8 +169,11 @@ def clicked_btn1_3():
     global balance
     count_life -= 1
     balance -= 100000
-    form3.lineEdit.setText(str(count_life))
-    open_question_window4()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form3.lineEdit.setText(str(count_life))
+        open_question_window4()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -187,8 +190,11 @@ def clicked_btn3_3():
     global balance
     count_life -= 1
     balance -= 100000
-    form3.lineEdit.setText(str(count_life))
-    open_question_window4()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form3.lineEdit.setText(str(count_life))
+        open_question_window4()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -197,8 +203,11 @@ def clicked_btn4_3():
     global balance
     count_life -= 1
     balance -= 100000
-    form3.lineEdit.setText(str(count_life))
-    open_question_window4()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form3.lineEdit.setText(str(count_life))
+        open_question_window4()
 
 
 # функция открытия окна с четвертым вопросом
@@ -238,8 +247,11 @@ def clicked_btn1_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    open_question_window5()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form4.lineEdit.setText(str(count_life))
+        open_question_window5()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -248,8 +260,11 @@ def clicked_btn2_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    open_question_window5()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form4.lineEdit.setText(str(count_life))
+        open_question_window5()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -266,8 +281,11 @@ def clicked_btn4_4():
     global balance
     count_life -= 1
     balance -= 100000
-    form4.lineEdit.setText(str(count_life))
-    open_question_window5()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form4.lineEdit.setText(str(count_life))
+        open_question_window5()
 
 
 # функция открытия окна с пятым вопросом
@@ -315,8 +333,11 @@ def clicked_btn2_5():
     global balance
     count_life -= 1
     balance -= 100000
-    form5.lineEdit.setText(str(count_life))
-    open_question_window6()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form5.lineEdit.setText(str(count_life))
+        open_question_window6()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -325,8 +346,11 @@ def clicked_btn3_5():
     global balance
     count_life -= 1
     balance -= 100000
-    form5.lineEdit.setText(str(count_life))
-    open_question_window6()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form5.lineEdit.setText(str(count_life))
+        open_question_window6()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -335,8 +359,11 @@ def clicked_btn4_5():
     global balance
     count_life -= 1
     balance -= 100000
-    form5.lineEdit.setText(str(count_life))
-    open_question_window6()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form5.lineEdit.setText(str(count_life))
+        open_question_window6()
 
 
 # функция открытия окна с шестым вопросом
@@ -376,8 +403,11 @@ def clicked_btn1_6():
     global balance
     count_life -= 1
     balance -= 100000
-    form6.lineEdit.setText(str(count_life))
-    open_question_window7()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form6.lineEdit.setText(str(count_life))
+        open_question_window7()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -386,8 +416,11 @@ def clicked_btn2_6():
     global balance
     count_life -= 1
     balance -= 100000
-    form6.lineEdit.setText(str(count_life))
-    open_question_window7()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form6.lineEdit.setText(str(count_life))
+        open_question_window7()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -404,8 +437,11 @@ def clicked_btn4_6():
     global balance
     count_life -= 1
     balance -= 100000
-    form6.lineEdit.setText(str(count_life))
-    open_question_window7()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form6.lineEdit.setText(str(count_life))
+        open_question_window7()
 
 
 # функция открытия окна с седьмым вопросом
@@ -453,8 +489,11 @@ def clicked_btn2_7():
     global balance
     count_life -= 1
     balance -= 100000
-    form7.lineEdit.setText(str(count_life))
-    open_question_window8()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form7.lineEdit.setText(str(count_life))
+        open_question_window8()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -463,8 +502,11 @@ def clicked_btn3_7():
     global balance
     count_life -= 1
     balance -= 100000
-    form7.lineEdit.setText(str(count_life))
-    open_question_window8()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form7.lineEdit.setText(str(count_life))
+        open_question_window8()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -473,8 +515,11 @@ def clicked_btn4_7():
     global balance
     count_life -= 1
     balance -= 100000
-    form7.lineEdit.setText(str(count_life))
-    open_question_window8()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form7.lineEdit.setText(str(count_life))
+        open_question_window8()
 
 
 # функция открытия окна с восьмым вопросом
@@ -514,8 +559,11 @@ def clicked_btn1_8():
     global balance
     count_life -= 1
     balance -= 100000
-    form8.lineEdit.setText(str(count_life))
-    open_question_window9()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form8.lineEdit.setText(str(count_life))
+        open_question_window9()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -524,8 +572,11 @@ def clicked_btn2_8():
     global balance
     count_life -= 1
     balance -= 100000
-    form8.lineEdit.setText(str(count_life))
-    open_question_window9()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form8.lineEdit.setText(str(count_life))
+        open_question_window9()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -542,8 +593,11 @@ def clicked_btn4_8():
     global balance
     count_life -= 1
     balance -= 100000
-    form8.lineEdit.setText(str(count_life))
-    open_question_window9()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form8.lineEdit.setText(str(count_life))
+        open_question_window9()
 
 
 # функция открытия окна с девятым вопросом
@@ -583,8 +637,11 @@ def clicked_btn1_9():
     global balance
     count_life -= 1
     balance -= 100000
-    form9.lineEdit.setText(str(count_life))
-    open_question_window10()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form9.lineEdit.setText(str(count_life))
+        open_question_window10()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -593,8 +650,11 @@ def clicked_btn2_9():
     global balance
     count_life -= 1
     balance -= 100000
-    form9.lineEdit.setText(str(count_life))
-    open_question_window10()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form9.lineEdit.setText(str(count_life))
+        open_question_window10()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -611,8 +671,11 @@ def clicked_btn4_9():
     global balance
     count_life -= 1
     balance -= 100000
-    form9.lineEdit.setText(str(count_life))
-    open_question_window10()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form9.lineEdit.setText(str(count_life))
+        open_question_window10()
 
 
 # функция открытия окна с десятым вопросом
@@ -652,8 +715,11 @@ def clicked_btn1_10():
     global balance
     count_life -= 1
     balance -= 100000
-    form10.lineEdit.setText(str(count_life))
-    open_question_window11()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form10.lineEdit.setText(str(count_life))
+        open_question_window11()
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -672,8 +738,11 @@ def clicked_btn3_10():
     global balance
     count_life -= 1
     balance -= 100000
-    form10.lineEdit.setText(str(count_life))
-    open_question_window11()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form10.lineEdit.setText(str(count_life))
+        open_question_window11()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -682,8 +751,11 @@ def clicked_btn4_10():
     global balance
     count_life -= 1
     balance -= 100000
-    form10.lineEdit.setText(str(count_life))
-    open_question_window11()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form10.lineEdit.setText(str(count_life))
+        open_question_window11()
 
 
 # функция открытия окна с одиннадцатым вопросом
@@ -733,8 +805,11 @@ def clicked_btn2_11():
     global balance
     count_life -= 1
     balance -= 100000
-    form11.lineEdit.setText(str(count_life))
-    open_question_window12()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form11.lineEdit.setText(str(count_life))
+        open_question_window12()
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -743,8 +818,11 @@ def clicked_btn3_11():
     global balance
     count_life -= 1
     balance -= 100000
-    form11.lineEdit.setText(str(count_life))
-    open_question_window12()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form11.lineEdit.setText(str(count_life))
+        open_question_window12()
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -753,8 +831,11 @@ def clicked_btn4_11():
     global balance
     count_life -= 1
     balance -= 100000
-    form11.lineEdit.setText(str(count_life))
-    open_question_window12()
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form11.lineEdit.setText(str(count_life))
+        open_question_window12()
 
 
 # функция открытия окна с двенацдатым вопросом
@@ -794,7 +875,10 @@ def clicked_btn1_12():
     global balance
     count_life -= 1
     balance -= 100000
-    form12.lineEdit.setText(str(count_life))
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form12.lineEdit.setText(str(count_life))
 
 
 # функция нажатия кнопки со вторым вариантом ответа
@@ -803,7 +887,10 @@ def clicked_btn2_12():
     global balance
     count_life -= 1
     balance -= 100000
-    form12.lineEdit.setText(str(count_life))
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form12.lineEdit.setText(str(count_life))
 
 
 # функция нажатия кнопки с третьим вариантом ответа
@@ -812,7 +899,10 @@ def clicked_btn3_12():
     global balance
     count_life -= 1
     balance -= 100000
-    form12.lineEdit.setText(str(count_life))
+    if count_life <= 0:
+        defeat_window()
+    else:
+        form12.lineEdit.setText(str(count_life))
 
 
 # функция нажатия кнопки с четвертым вариантом ответа
@@ -829,17 +919,21 @@ def victory_window():
     appV = QApplication([])
     FormV, WindowV = uic.loadUiType(
         "C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/victory_window_ui.ui")
-    global formV
     windowV = WindowV()
     formV = FormV()
     formV.setupUi(windowV)
+
     windowV.exec()
     appV.exec()
 
-    btn_exit = formV.pushButton
 
-    # функция закрытия окна с поздравлениями
-    def close_victory_window():
-        windowV.close()
+def defeat_window():
+    appD = QApplication([])
+    FormD, WindowD = uic.loadUiType(
+        "C:/_PYTHON_PROJECT_/How_to_become_millioner_py/ui_ui_files/defeat_window_ui.ui")
+    windowD = WindowD()
+    formD = FormD()
+    formD.setupUi(windowD)
 
-    btn_exit.clicked.connect(close_victory_window)
+    windowD.exec()
+    appD.exec()
