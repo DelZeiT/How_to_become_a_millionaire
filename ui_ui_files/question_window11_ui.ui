@@ -62,7 +62,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -102,7 +102,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -155,7 +155,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>a) 1492 </string>
@@ -171,7 +171,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string> b) 1500</string>
@@ -187,7 +187,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>c) 1520</string>
@@ -203,7 +203,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>d) 1550</string>

@@ -83,7 +83,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -123,7 +123,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white</string>
    </property>
    <property name="text">
     <string/>
@@ -155,7 +155,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>a) Красный </string>
@@ -171,7 +171,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string> b) Синий</string>
@@ -187,7 +187,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>c) Зеленый</string>
@@ -203,7 +203,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000066; color: white</string>
+    <string notr="true">background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #660099, stop:1 #000066); color: white; border-radius: 10px</string>
    </property>
    <property name="text">
     <string>d) Желтый</string>
